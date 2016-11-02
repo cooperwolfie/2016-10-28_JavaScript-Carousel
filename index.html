@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Owl Carousel Demo</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Foods and Stuff Carosel</h1>
+
+<div class="owl-carousel">
+  <div class="item"> <img src="img/bakery_bread_and_things.jpg"> </div>
+  <div class="item"> <img src="img/cake-cupcakes.jpg"> </div>
+  <div class="item"> <img src="img/coffee_latte.jpg"> </div>
+  <div class="item"> <img src="img/tea.jpg"></div>
+  <div class="item"> <img src="img/cake- chocolate_and_strawberry_cake.jpg"> </div>
+  <div class="item"> <img src="img/cinnamon_latte_.jpg"> </div>
+  <div class="item"> <img src="img/coffee_shop.jpg"> </div>
+  <div class="item"> <img src="img/spooky_cookies.jpg"> </div>
+
+</div>
+
+    <!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"> </script>
+<script src="js/owl.carousel.min.js"> </script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1,
+          autoplay : true,
+          autoplayTimeout : 3000,
+          loop : true,
+          autoplayHoverPause: true,
+      })
+     })
+    </script>
+  </body>
+</html>
